@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto-Demo2</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font AWesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-row">
+                    <div class="logo2">
+                        <i class="fa-solid fa-bars" id="bars"></i>
+                        <h1>
+                            <img src="./imgs/shop5_logo.png" alt="">
+                        </h1>
+                    </div>
+                    <ul class="left-ul">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">categories <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropDown">
+                                <div class="uls">
+                                    <h3>VARIATIONS 1</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">FULLWIDTH BANNER</a></li>
+                                        <li><a href="">BOXED IMAGE BANNER</a></li>
+                                        <li><a href="">BOXED SLIDER BANNER</a></li>
+                                        <li><a href="">LEFT SIDEBAR</a></li>
+                                        <li><a href="">RIGHT SIDEBAR</a></li>
+                                        <li><a href="">PRODUCT FLEX GRID</a></li>
+                                        <li><a href="">PRODUCT LIST ITEM TYPES</a></li>
+                                    </ul>
+                                </div>
+                                <div class="uls">
+                                    <h3>VARIATIONS 2</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">AJAX INFINITE SCROLL</a></li>
+                                        <li><a href="">3 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">4 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">5 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">6 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">7 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">8 COLUMNS PRODUCTS</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right-image">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">product <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropDown">
+                                <div class="uls">
+                                    <h3>PRODUCT PAGES</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">SIMPLE PRODUCT</a></li>
+                                        <li><a href="">CONFIGURABLE PRODUCT</a></li>
+                                        <li><a href="">BUNDLE PRODUCT</a></li>
+                                        <li><a href="">GROUPED PRODUCT</a></li>
+                                        <li><a href="">DOWNLOADABLE PRODUCT</a></li>
+                                        <li><a href="">ADDTOCART STICKY</a></li>
+                                        <li><a href="">VERTICAL TABS</a></li>
+                                        <li><a href="">ACCORDION TABS</a></li>
+                                        <li><a href="">STICKY TABS</a></li>
+                                    </ul>
+                                </div>
+                                <div class="uls">
+                                    <h3>PRODUCT LAYOUT</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">DEFAULT LAYOUT</a></li>
+                                        <li><a href="">EXTENDED LAYOUT</a></li>
+                                        <li><a href="">FULL WIDTH LAYOUT</a></li>
+                                        <li><a href="">GRID IMAGES LAYOUT</a></li>
+                                        <li><a href="">STICKY RIGHT SIDE INFO</a></li>
+                                        <li><a href="">VERTICAL LAYOUT</a></li>
+                                        <li><a href="">WITH SIDEBAR</a></li>
+                                        <li><a href="">WITHOUT SIDEBAR</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right-image2">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">pages <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropDown2">
+                                <li><a href="">about us</a></li>
+                                <li><a href="">contact us</a></li>
+                                <li><a href="">blog</a></li>
+                                <li><a href="">post</a></li>
+                                <li><a href="">shopping cart</a></li>
+                                <li><a href="">checkout</a></li>
+                                <li><a href="">my account</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">features <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropDown2">
+                                <li><a href="">header types</a></li>
+                                <li><a href="">footer types</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">buy porto!</a></li>
+                    </ul>
+                    <div class="right-cart">
+                        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-bag-shopping" id="basket"><span>0</span></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="up">
+            <h4>Get Up to 40% OFF New-Season Styles <a href="">MEN</a> <a href="">WOMEN</a> <span> * Limited time
+                    only.</span></h4>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="up2">
+            <div class="container">
+                <div class="nav-row">
+                    <h4>FREE RETURNS. STANDARD SHIPPING ORDERS $99+</h4>
+                    <div class="right-things">
+                        <h4>DEFAULT WELCOME MSG!</h4>
+                        <ul>
+                            <li><a href="">blog</a></li>
+                            <li><a href="">sign in</a></li>
+                            <li><a href="">contact us</a></li>
+                            <li><a href="">create an account</a></li>
+                        </ul>
+                        <h5 class="usd">USD <i class="fa-solid fa-angle-down"></i></h5>
+                        <div class="right-social">
+                            <div class="social"><i class="fa-brands fa-facebook-f"></i></div>
+                            <div class="social"><i class="fa-brands fa-twitter"></i></div>
+                            <div class="social"><i class="fa-brands fa-instagram"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mid">
+            <div class="container">
+                <div class="mid-row">
+                    <div class="logo">
+                    <i class="fa-solid fa-bars" id="bars"></i>
+                        <h1>
+                            <img src="./imgs/shop5_logo.png" alt="">
+                        </h1>
+                    </div>
+                    <div class="mid-input">
+                        <input type="text" placeholder="Search...">
+                        <div class="selection">
+                            <div class="select">
+                                <select>
+                                    <option>All Categories</option>
+                                </select>
+                            </div>
+                            <div class="search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-status">
+                        <div class="call">
+                            <i class="fa-solid fa-phone"></i>
+                            <div class="ri">
+                                <p>CALL US NOW</p>
+                                <h4>+123 5678 890</h4>
+                            </div>
+                        </div>
+                        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+                        <i class="fa-regular fa-user"></i>
+                        <i class="fa-regular fa-heart"></i>
+                        <i class="fa-solid fa-bag-shopping" id="basket"><span>0</span></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            <div class="container">
+                <div class="nav-row">
+                    <ul class="left-ul">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">categories <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropDown">
+                                <div class="uls">
+                                    <h3>VARIATIONS 1</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">FULLWIDTH BANNER</a></li>
+                                        <li><a href="">BOXED IMAGE BANNER</a></li>
+                                        <li><a href="">BOXED SLIDER BANNER</a></li>
+                                        <li><a href="">LEFT SIDEBAR</a></li>
+                                        <li><a href="">RIGHT SIDEBAR</a></li>
+                                        <li><a href="">PRODUCT FLEX GRID</a></li>
+                                        <li><a href="">PRODUCT LIST ITEM TYPES</a></li>
+                                    </ul>
+                                </div>
+                                <div class="uls">
+                                    <h3>VARIATIONS 2</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">AJAX INFINITE SCROLL</a></li>
+                                        <li><a href="">3 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">4 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">5 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">6 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">7 COLUMNS PRODUCTS</a></li>
+                                        <li><a href="">8 COLUMNS PRODUCTS</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right-image">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">product <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropDown">
+                                <div class="uls">
+                                    <h3>PRODUCT PAGES</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">SIMPLE PRODUCT</a></li>
+                                        <li><a href="">CONFIGURABLE PRODUCT</a></li>
+                                        <li><a href="">BUNDLE PRODUCT</a></li>
+                                        <li><a href="">GROUPED PRODUCT</a></li>
+                                        <li><a href="">DOWNLOADABLE PRODUCT</a></li>
+                                        <li><a href="">ADDTOCART STICKY</a></li>
+                                        <li><a href="">VERTICAL TABS</a></li>
+                                        <li><a href="">ACCORDION TABS</a></li>
+                                        <li><a href="">STICKY TABS</a></li>
+                                    </ul>
+                                </div>
+                                <div class="uls">
+                                    <h3>PRODUCT LAYOUT</h3>
+                                    <ul class="ul1">
+                                        <li><a href="">DEFAULT LAYOUT</a></li>
+                                        <li><a href="">EXTENDED LAYOUT</a></li>
+                                        <li><a href="">FULL WIDTH LAYOUT</a></li>
+                                        <li><a href="">GRID IMAGES LAYOUT</a></li>
+                                        <li><a href="">STICKY RIGHT SIDE INFO</a></li>
+                                        <li><a href="">VERTICAL LAYOUT</a></li>
+                                        <li><a href="">WITH SIDEBAR</a></li>
+                                        <li><a href="">WITHOUT SIDEBAR</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right-image2">
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="#">pages <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropDown2">
+                                <li><a href="">about us</a></li>
+                                <li><a href="">contact us</a></li>
+                                <li><a href="">blog</a></li>
+                                <li><a href="">post</a></li>
+                                <li><a href="">shopping cart</a></li>
+                                <li><a href="">checkout</a></li>
+                                <li><a href="">my account</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">features <i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropDown2">
+                                <li><a href="">header types</a></li>
+                                <li><a href="">footer types</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">blog</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">buy porto!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <div class="flex">
+                <h3>shopping cart</h3>
+                <i class="fa-solid fa-xmark" id="close2"></i>
+            </div>
+            <div class="empty">
+                <i class="fa-solid fa-cart-plus"></i>
+                <h4>Your Cart Is Empty</h4>
+                <button>return to shop</button>
+            </div>
+            <div class="choose">
+            </div>
+            <button class="clearAll">
+                Clear All
+            </button>
+        </div>
+        <aside class="aside1">
+            <div class="close3">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+            <div class="threeButtons">
+                <button><i class="fa-solid fa-bars"></i> menu</button>
+                <button>account</button>
+                <button>settings</button>
+            </div>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">categories</a></li>
+                <li><a href="">products</a></li>
+                <li><a href="">pages</a></li>
+                <li><a href="">features</a></li>
+                <li><a href="">blog</a></li>
+                <li><a href="">about us</a></li>
+                <li><a href="">buy porto!</a></li>
+            </ul>
+        </aside>
+        <div class="upper">
+            <i class="fa-solid fa-angle-up"></i>
+        </div>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="container">
+                <div class="first-row">
+                    <div class="cardat">
+                        <i class="fa-solid fa-truck-fast"></i>
+                        <div class="right">
+                            <h4>free shipping and return</h4>
+                            <p>free shipping on all orderes over $99</p>
+                        </div>
+                    </div>
+                    <div class="cardat">
+                        <i class="fa-solid fa-dollar-sign"></i>
+                        <div class="right">
+                            <h4>moeny back guarantee</h4>
+                            <p>100% money back gruarantee</p>
+                        </div>
+                    </div>
+                    <div class="cardat">
+                        <i class="fa-solid fa-rotate"></i>
+                        <div class="right">
+                            <h4>online support 24/7</h4>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero">
+            <div class="container">
+                <div class="hero-image">
+                    <div class="container">
+                        <div class="hero-content">
+                            <h5>find the boundaries. push through!</h5>
+                            <h2>jeany sale</h2>
+                            <h3>
+                                up to 80% OFF
+                            </h3>
+                            <div class="botInfo">
+                                <h6>starting at</h6>
+                                <span>$199.<small>99</small></span>
+                                <button>shop now!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="best">
+            <div class="container">
+                <div class="best-row">
+                    <div class="card1">
+                        <h3>FEATURED PRODUCTS</h3>
+                        <img src="./imgs/product1.jpeg" alt="">
+                        <div class="card-body1">
+                            <h4>casual spring blue shoes</h4>
+                            <div class="stars">
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <h5 class="price1">$55.00</h5>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <h3>BEST SELLERS</h3>
+                        <img src="./imgs/product2.jpeg" alt="">
+                        <div class="card-body1">
+                            <h4>girl shoes</h4>
+                            <div class="stars">
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <h5 class="price1">$101.00</h5>
+                        </div>
+                    </div>
+                    <div class="card1">
+                        <h3>NEW ARRIVALS</h3>
+                        <img src="./imgs/product3.jpeg" alt="">
+                        <div class="card-body1">
+                            <h4>travel bag</h4>
+                            <div class="stars">
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                                <div class="star"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <h5 class="price1">$299.00</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="container">
+                <div class="offers-row">
+                    <div class="card2">
+                        <img src="./imgs/shop5_home_banner1.jpg" alt="">
+                        <div class="pos">
+                            <h3>Porto Watches</h3>
+                            <h4><span>20%</span> 30%<small>OFF</small></h4>
+                            <button>shop now</button>
+                        </div>
+                    </div>
+                    <div class="card2 card3">
+                        <img src="./imgs/shop4_home_ads2-1.jpg" alt="">
+                        <div class="pos2">
+                            <div class="left">
+                                <h3>DEAL PROMOS</h3>
+                                <h4>STARTING AT $99</h4>
+                            </div>
+                            <button>shop now</button>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <img src="./imgs/shop4_home_banner3.jpg" alt="">
+                        <div class="pos">
+                            <h3>Handbags</h3>
+                            <h5>STARTING AT $99</h5>
+                            <button>shop now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <div class="container">
+                <div class="title">
+                    <h2>popular products</h2>
+                </div>
+                <div class="products-row">
+                </div>
+                <div class="showMore">
+                    <button>Show More...</button>
+                </div>
+            </div>
+            <div class="overlay">
+                <div class="container2">
+                    <div class="over-row">
+                        <i class="fa-solid fa-xmark" id="close"></i>
+                        <div class="left-image">
+                            <img src="./imgs/shop5_product5.jpg" alt="">
+                        </div>
+                        <div class="right-info">
+                            <h3>Men Belt Double Set</h3>
+                            <div class="stars2">
+                                <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                <div class="star2"><i class="fa-solid fa-star"></i></div>
+                                <div class="star2"><i class="fa-solid fa-star"></i></div>
+                            </div>
+                            <h4 class="price4">$299.00</h4>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat, sint minus ipsa totam
+                                quasi rem amet. Eligendi ipsum aliquid ut ad sed. Esse quos autem consequatur quisquam
+                                debitis totam sapiente.
+                            </p>
+                            <div class="marg">
+                                <h5>AVAILABILITY: <span>IN STOCK</span></h5>
+                                <h5>SKU: <span>423234-1</span></h5>
+                            </div>
+                            <div class="sizeAndColor">
+                                <div class="size">
+                                    <h6>Size:</h6>
+                                    <div class="right-sizes">
+                                        <div class="sizat">xs</div>
+                                        <div class="sizat">s</div>
+                                        <div class="sizat">m</div>
+                                        <div class="sizat">l</div>
+                                    </div>
+                                </div>
+                                <div class="color">
+                                    <h6>Color:</h6>
+                                    <div class="colors">
+                                        <div class="black"></div>
+                                        <div class="blue"></div>
+                                        <div class="gray"></div>
+                                        <div class="red"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="add">
+                                <div class="left-count">
+                                    <button class="minus">-</button>
+                                    <input type="text" value="1">
+                                    <button class="plus">+</button>
+                                </div>
+                                <button class="addToCart"><i class="fa-solid fa-bag-shopping"></i> Add To Cart</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="midImage">
+            <div class="container">
+                <div class="mid-image">
+                    <div class="left-info">
+                        <span>big sale</span>
+                        <h2>ALL NEW FASHION BRANDS ITEMS UP TO 70% OFF</h2>
+                        <p>Online Purchases Only</p>
+                    </div>
+                    <button>view sale</button>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <div class="serv-row">
+                    <div class="cards2">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="middle">
+                            <h3>CUSTOMER SUPPORT</h3>
+                            <h4>Need Assistence?</h4>
+                        </div>
+                        <p>We really care about you and your website as much as you do. Purchasing Porto or any other
+                            theme from us you get 100% free support.</p>
+                    </div>
+                    <div class="cards2">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <div class="middle">
+                            <h3>SECURED PAYMENT</h3>
+                            <h4>Safe & Fast</h4>
+                        </div>
+                        <p>With Porto you can customize the layout, colors and styles within only a few minutes. Start
+                            creating an amazing website right now!</p>
+                    </div>
+                    <div class="cards2">
+                        <i class="fa-solid fa-share"></i>
+                        <div class="middle">
+                            <h3>RETURNS</h3>
+                            <h4>Easy & Free</h4>
+                        </div>
+                        <p>Porto has very powerful admin features to help customer to build their own shop in minutes
+                            without any special skills in web development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="images">
+            <div class="container">
+                <div class="images-row">
+                    <img src="./imgs/one.png" alt="">
+                    <img src="./imgs/two.png" alt="">
+                    <img src="./imgs/three.png" alt="">
+                    <img src="./imgs/four.png" alt="">
+                    <img src="./imgs/five.png" alt="">
+                    <img src="./imgs/six.png" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="container">
+                <div class="foot-row">
+                    <div class="leftOne">
+                        <h3 class="head">CONTACT INFO</h3>
+                        <div class="bot">
+                            <div class="dot">
+                                <h4>ADDRESS:</h4>
+                                <p>123 Street Name, City, England</p>
+                            </div>
+                            <div class="dot">
+                                <h4>PHONE:</h4>
+                                <p>(123) 456-7890</p>
+                            </div>
+                            <div class="dot">
+                                <h4>EMAIL:</h4>
+                                <a href="">mail@example.com</a>
+                            </div>
+                            <div class="dot">
+                                <h4>WORKING DAYS/HOURS:</h4>
+                                <p>Mon - Sun / 9:00 AM - 8:00 PM</p>
+                            </div>
+                            <div class="social__icons">
+                                <div class="soc"><i class="fa-brands fa-facebook-f"></i></div>
+                                <div class="soc"><i class="fa-brands fa-twitter"></i></div>
+                                <div class="soc"><i class="fa-brands fa-instagram"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rightOne">
+                        <div class="top">
+                            <div class="first">
+                                <h3 class="head">SUBSCRIBE NEWSLETTER</h3>
+                                <p>Get all the latest information on Events, Sales and Offers. Sign up for newsletter
+                                    today.</p>
+                            </div>
+                            <div class="right-input">
+                                <input type="text" placeholder="Emaill Address">
+                                <button>subscribe</button>
+                            </div>
+                        </div>
+                        <div class="bottom">
+                            <div class="one1">
+                                <h3 class="head">CUSTOMER SERVICE</h3>
+                                <div class="flex2">
+                                    <ul>
+                                        <li><a href="">About us</a></li>
+                                        <li><a href="">Contact us</a></li>
+                                        <li><a href="">My Account</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="">Order history</a></li>
+                                        <li><a href="">Advanced search</a></li>
+                                        <li><a href="">Login</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="one1">
+                                <h3 class="head">ABOUT US</h3>
+                                <div class="flex2">
+                                    <ul>
+                                        <li><a href="">Super Fast Wordpress Theme</a></li>
+                                        <li><a href="">1st Fully working Ajax Theme</a></li>
+                                        <li><a href="">36 Unique Shop Layouts</a></li>
+                                    </ul>
+                                    <ul>
+                                        <li><a href="">Powerful Admin Panel</a></li>
+                                        <li><a href="">Mobile & Retina Optimized</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <div class="container">
+                <div class="end-row">
+                    <h4>© Porto Magento 2023. All Rights Reserved</h4>
+                    <img src="./imgs/shop5_payments.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- JS -->
+    <script src="./js/main.js"></script>
+</body>
+</html>
